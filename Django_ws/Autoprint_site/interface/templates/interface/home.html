@@ -13,12 +13,12 @@
             AutoPrint
         </div>
         <div class="buttons">
-            <button id="cmd_but" style="top: 0%;">Home Printer</button>
-            <button id="cmd_but" style="top: 15%;">Move Axis</button>
-            <button id="cmd_but" style="top: 30%;">Pre Heat</button>
-            <button id="cmd_but" style="top: 45%;">Print</button>
-            <button id="cmd_but" style="top: 60%;">Load File</button>
-            <input type="button" id="cmd_but" onclick="alert('hello')" value="Close After Print" style="top: 75%;">
+            <button id="cmd_but_Home" style="top: 0%;" onclick="Home_printer()">Home Printer</button>
+            <button id="cmd_but_Move" style="top: 15%;">Move Axis</button>
+            <button id="cmd_but_Heat" style="top: 30%;">Pre Heat</button>
+            <button id="cmd_but_Print" style="top: 45%;">Print</button>
+            <button id="cmd_but_Load" style="top: 60%;">Load File</button>
+            <button id="cmd_but_Close" onclick="alert('hello')" style="top: 75%;">Close after print</button>
         </div>
         <div class="interaction">
             interaction
@@ -35,6 +35,12 @@
         </div>
         
     </div>
+    <script>
+        function Home_printer(){
+            
+        }
+    </script>
+
     
 </body>
 </html>
