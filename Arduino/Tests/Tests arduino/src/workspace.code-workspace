@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Django_ws"
+		},
+		{
+			"name": "Tests arduino",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
